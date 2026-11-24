@@ -1,0 +1,28 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.pinnradar/odds",
+  "description": "In-play and prematch Pinnacle prices, sharp line moves and plan usage, via a PinnRadar key.",
+  "title": "PinnRadar odds",
+  "websiteUrl": "https://pinnradar.com/mcp",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.pinnradar.com/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Bearer followed by your PinnRadar API key (free keys at https://pinnradar.com/)",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ],
+  "icons": [
+    {
+      "src": "https://pinnradar.com/logo.png",
+      "mimeType": "image/png"
+    }
+  ]
+}

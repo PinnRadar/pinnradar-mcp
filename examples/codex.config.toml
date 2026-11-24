@@ -1,0 +1,3 @@
+[mcp_servers.pinnradar]
+url = "https://mcp.pinnradar.com/mcp"
+bearer_token_env_var = "PINNRADAR_KEY"

@@ -1,0 +1,12 @@
+{
+  "inputs": [
+    { "id": "radar-key", "type": "promptString", "description": "Your PinnRadar key", "password": true }
+  ],
+  "servers": {
+    "pinnradar": {
+      "type": "http",
+      "url": "https://mcp.pinnradar.com/mcp",
+      "headers": { "Authorization": "Bearer ${input:radar-key}" }
+    }
+  }
+}

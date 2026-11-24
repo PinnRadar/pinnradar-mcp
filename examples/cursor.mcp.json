@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "pinnradar": {
+      "url": "https://mcp.pinnradar.com/mcp",
+      "headers": { "Authorization": "Bearer PASTE_KEY_HERE" }
+    }
+  }
+}
