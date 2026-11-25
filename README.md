@@ -1,5 +1,7 @@
 # PinnRadar MCP server
 
+[![PinnRadar MCP connector](https://glama.ai/mcp/connectors/com.pinnradar.mcp/pinn-radar-odds/badges/score.svg)](https://glama.ai/mcp/connectors/com.pinnradar.mcp/pinn-radar-odds)
+
 Pinnacle odds for AI assistants. Connect Claude, Cursor, VS Code or Codex to one URL and ask in plain words: what's live, where a total sits, which prices just dropped.
 
 - **Endpoint:** `https://mcp.pinnradar.com/mcp` (remote, Streamable HTTP)
